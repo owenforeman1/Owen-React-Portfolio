@@ -9,7 +9,11 @@ function Navigation(props) {
     <>
       {props.navArray.map((tabName) => {
         return (
-          <button key={tabName} onClick={() => props.setActiveTab(tabName)} className={props.activeTab == tabName ? "active" : ""}>
+          <button
+            key={tabName}
+            onClick={() => props.setActiveTab(tabName)}
+            className={props.activeTab == tabName ? "active" : ""}
+          >
             {tabName}
           </button>
         );
