@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "../styles/style.css";
+import "../../styles/style.css";
 
 // Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from "../utils/helpers";
+import { checkPassword, validateEmail } from "../../utils/helpers";
 
 function Form() {
   // Create state variables for the fields in the form
@@ -56,6 +56,8 @@ function Form() {
   return (
     <div>
       <p>Hello {userName}</p>
+      <p>Email me here at owenhtforeman@gmail.com</p>
+      <p>Give me a call at 304-282-4543</p>
       <form className="form">
         <input
           value={email}
