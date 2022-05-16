@@ -4,7 +4,7 @@ import image from "./IMG_0799.JPG";
 export default function About() {
   return (
     <div>
-      <img src={image}></img>
+      <img id="Me" src={image}></img>
 
       <p>
         My name is Owen Foreman and this is my first React portfolio! I have joined

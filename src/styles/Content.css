@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bodyContent {
+  min-height: 75vh;
+}
+
+h1#name-header {
+  margin-left: 20px;
+}
+
+header button{
+  margin-left: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  border-color: transparent;
+  color: burlywood;
+}
+
+#Me {
+  width: 200px;
+}

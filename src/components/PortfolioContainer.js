@@ -6,7 +6,7 @@ import AboutMe from "./pages/AboutMe";
 import Form from "./pages/Form";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
-import "../styles/portfolioContent.css"
+
 
 export default function PortfolioContainer() {
   const [activeTab, setActiveTab] = useState('About Me')
@@ -20,7 +20,7 @@ export default function PortfolioContainer() {
         activeTab={activeTab}
         setActiveTab={setActiveTab}
       />
-      <div>
+      <div className="bodyContent">
         <h2>{activeTab}</h2>
         {activeTab == "About Me" && <AboutMe/>}
         {activeTab == "Portfolio" && <Portfolio/>}

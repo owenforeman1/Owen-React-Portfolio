@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import Footer from "./components/Footer";
 import PortfolioContainer from "./components/PortfolioContainer";
+import "./styles/Content.css"
 
 function App() {
   return (
