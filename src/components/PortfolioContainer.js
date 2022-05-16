@@ -6,6 +6,7 @@ import AboutMe from "./pages/AboutMe";
 import Form from "./pages/Form";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
+import "../styles/portfolioContent.css"
 
 export default function PortfolioContainer() {
   const [activeTab, setActiveTab] = useState('About Me')
@@ -33,7 +34,6 @@ export default function PortfolioContainer() {
 
 return (
   <div>
-
     {renderPage()}
   </div>
 );

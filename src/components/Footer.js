@@ -5,8 +5,13 @@ import linkedin from "./LI-In-Bug.png";
 function Footer() {
   return (
     <div>
-      <img src={github}></img>
-      <img src={linkedin} style={{maxWidth: "64px"}}></img>
+      <a
+        href="https://www.linkedin.com/in/owen-foreman-956912232/"
+        target="_blank"><img src={linkedin} style={{ maxWidth: "64px" }}></img>
+      </a>
+      <a href="https://github.com/owenforeman1" target="_blank">
+        <img src={github}></img>
+      </a>
     </div>
   );
 }

@@ -5,7 +5,7 @@ function Header(props) {
 
   return (
     <header className="App-header">
-      <h1>Hellowen</h1>
+      <h1>Owen Foreman</h1>
       <Navigation navArray={props.navArray} activeTab={props.activeTab} setActiveTab={props.setActiveTab}/>
     </header>
   );

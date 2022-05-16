@@ -7,7 +7,7 @@ export default function About() {
       <img src={image}></img>
 
       <p>
-        My name is Owen Foreman and this is my first portfolio! I have joined
+        My name is Owen Foreman and this is my first React portfolio! I have joined
         this program to further my knowledge of code and computers. Computers
         are my biggest hobby and I want to know as much as I can. Anything from
         gaming all night with my friends to researching new tech. I love 3d art,

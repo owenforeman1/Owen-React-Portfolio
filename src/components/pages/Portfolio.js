@@ -1,10 +1,9 @@
 import React from "react";
-import image from "./IMG_0799.JPG";
+
 
 export default function Portfolio() {
   return (
     <div>
-      <img src={image}></img>
 
       <p>
         My name is Owen Foreman and this is my first portfolio! I have joined
