@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 import Header from "./Header";
-import image from "./IMG_0799.JPG"
+import image from "./IMG_0799.JPG";
+import Footer from "./Footer";
 
 function App() {
   //about me
@@ -62,6 +63,7 @@ function App() {
           </ul>
         </>
       )}
+        <Footer/>
     </div>
   );
 }
