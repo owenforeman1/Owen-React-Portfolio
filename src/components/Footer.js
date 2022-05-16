@@ -4,10 +4,10 @@ import linkedin from "./LI-In-Bug.png";
 
 function Footer() {
   return (
-    <>
+    <div>
       <img src={github}></img>
       <img src={linkedin} style={{maxWidth: "64px"}}></img>
-    </>
+    </div>
   );
 }
 
