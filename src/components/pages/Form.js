@@ -25,6 +25,18 @@ function Form() {
     }
   };
 
+  const handleInputValidation = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "email") {
+      validateEmail(inputValue);
+    } else if (!inputValue) {
+      alert("Please enter an email")
+    }
+  };
+
   const handleFormSubmit = (e) => {
   
     e.preventDefault();
@@ -46,12 +58,12 @@ function Form() {
   return (
     <div id="formdiv">
       <p>Email me here at owenhtforeman@gmail.com</p>
-      <p>Give me a call at 304-282-4543</p>
       <form className="form">
         <input id="emailinput"
           value={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={handleInputValidation}
           type="email"
           placeholder="email"
           required
@@ -60,17 +72,18 @@ function Form() {
           value={name}
           name="name"
           onChange={handleInputChange}
+          onBlur={handleInputValidation}
           type="text"
           placeholder="name"
           required
         />
-        <input id="messageinput"
+        <textarea id="messageinput"
           value={message}
           name="message"
           onChange={handleInputChange}
+          onBlur={handleInputValidation}
           type="text"
           placeholder="message"
-          required
         />
         <button type="button" onClick={handleFormSubmit}>
           Submit

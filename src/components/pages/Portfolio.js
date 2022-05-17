@@ -52,7 +52,7 @@ export default function Portfolio() {
   return (
     <div>
       {projects.map((item) => {
-        return <Project projectObject={item}/>
+        return <Project key={item.title} projectObject={item}/>
       }
       )}
     </div>

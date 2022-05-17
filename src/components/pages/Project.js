@@ -24,8 +24,3 @@ export default function Project({projectObject}) {
     </div>
   );
 }
-
-//image 
-//github link
-//deployed link
-//title
