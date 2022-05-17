@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Owen-React-Portfolio/static/css/main.e3e9b7a7.css",
+    "main.js": "/Owen-React-Portfolio/static/js/main.ea665369.js",
+    "static/js/787.93eebef0.chunk.js": "/Owen-React-Portfolio/static/js/787.93eebef0.chunk.js",
+    "static/media/new-project.png": "/Owen-React-Portfolio/static/media/new-project.3e7e1c6cf2772d9bb365.png",
+    "static/media/horizeon-refactor.png": "/Owen-React-Portfolio/static/media/horizeon-refactor.e3ea4fa66bada3467e0f.png",
+    "static/media/fitnesspal.png": "/Owen-React-Portfolio/static/media/fitnesspal.9ea85c783906a80e288b.png",
+    "static/media/IMG_0799.JPG": "/Owen-React-Portfolio/static/media/IMG_0799.a3d929a074e1bd72b89c.JPG",
+    "static/media/work-day.png": "/Owen-React-Portfolio/static/media/work-day.7b92fc957a8b2ecc4ef4.png",
+    "static/media/weather.png": "/Owen-React-Portfolio/static/media/weather.c034ff070ed3c8ec4c1f.png",
+    "static/media/not.png": "/Owen-React-Portfolio/static/media/not.2b6e3f5bc5f677d50ceb.png",
+    "static/media/quiz.png": "/Owen-React-Portfolio/static/media/quiz.f016f4ad7590adff0504.png",
+    "index.html": "/Owen-React-Portfolio/index.html",
+    "main.e3e9b7a7.css.map": "/Owen-React-Portfolio/static/css/main.e3e9b7a7.css.map",
+    "main.ea665369.js.map": "/Owen-React-Portfolio/static/js/main.ea665369.js.map",
+    "787.93eebef0.chunk.js.map": "/Owen-React-Portfolio/static/js/787.93eebef0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3e9b7a7.css",
+    "static/js/main.ea665369.js"
+  ]
+}
