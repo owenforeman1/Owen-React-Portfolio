@@ -6,7 +6,7 @@ export default function About() {
     <div>
       <img id="Me" src={image}></img>
 
-      <p>
+      <p id="meText">
         My name is Owen Foreman and this is my first React portfolio! I have joined
         this program to further my knowledge of code and computers. Computers
         are my biggest hobby and I want to know as much as I can. Anything from

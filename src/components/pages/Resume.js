@@ -24,6 +24,7 @@ export default function Resume() {
         <li>Express</li>
         <li>MySQL, Sequalize</li>
         <li>Rest</li>
+        <li>GraphQL</li>
       </ul>
     </div>
   );
