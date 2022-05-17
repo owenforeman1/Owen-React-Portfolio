@@ -1,12 +1,13 @@
 .form {
   margin: 20px;
+      margin: 0 auto;
+        align-self: center;
 }
 
 .form input {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
-  max-width: 50%;
 }
 
 ul {
@@ -16,4 +17,34 @@ ul {
 
 li {
   font-size: 20px;
+}
+
+#formdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#emailinput {
+width: 300px;
+}
+
+#nameinput {
+width: 300px;
+}
+
+#messageinput {
+width: 300px;
+height: 200px;
+}
+
+#githubicon {
+  margin-bottom: 10px;
+}
+
+#githubicon:hover {
+  -webkit-box-shadow: 0px 0px 17px 3px rgba(78,
+    221,
+    231,
+    0.945);
+    box-shadow: 0px 0px 17px 3px rgba(78, 221, 231, 0.945);
 }

@@ -44,30 +44,33 @@ function Form() {
   };
 
   return (
-    <div>
+    <div id="formdiv">
       <p>Email me here at owenhtforeman@gmail.com</p>
       <p>Give me a call at 304-282-4543</p>
       <form className="form">
-        <input
+        <input id="emailinput"
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          required
         />
-        <input
+        <input id="nameinput"
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
+          required
         />
-        <input
+        <input id="messageinput"
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          required
         />
         <button type="button" onClick={handleFormSubmit}>
           Submit
