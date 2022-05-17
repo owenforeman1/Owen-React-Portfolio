@@ -1,19 +1,34 @@
 import React from "react";
-
-
+import image from "./IMG_0799.JPG";
+import Project from "./Project";
+import Horizeon from  "./horizeon-refactor.png"
 export default function Portfolio() {
+
+  const projects = [
+    {
+      title: "Refactor",
+      repoLink: "https://github.com/owenforeman1/Horiseon-Refactor",
+      deployedLink: "https://owenforeman1.github.io/Horiseon-Refactor",
+      projectImage: Horizeon,
+    },
+    {
+      title: "Refactor",
+      repoLink: "https://github.com/owenforeman1/Horiseon-Refactor",
+      deployedLink: "https://owenforeman1.github.io/Horiseon-Refactor",
+      projectImage: Horizeon,
+    },
+  ];
+
+
+
+
+
   return (
     <div>
-
-      <p>
-        My name is Owen Foreman and this is my first portfolio! I have joined
-        this program to further my knowledge of code and computers. Computers
-        are my biggest hobby and I want to know as much as I can. Anything from
-        gaming all night with my friends to researching new tech. I love 3d art,
-        I'm getting into Blender and photoshop so I can further my hobby.
-        Hopefully by the end of this program I have the capabilites to be a full
-        stack web developer and can get my foot in the field!
-      </p>
+      {projects.map((item) => {
+        return <Project projectObject={item}/>
+      }
+      )}
     </div>
   );
 }
