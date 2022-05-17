@@ -6,7 +6,7 @@ import DailyMealPlanner from "./new-project.png";
 import WorkDay from "./work-day.png";
 import Quiz from "./quiz.png";
 import Note from "./not.png";
-//need one more project
+import Weather from "./weather.png";
 
 export default function Portfolio() {
 
@@ -46,6 +46,12 @@ export default function Portfolio() {
       repoLink: "https://github.com/owenforeman1/Note-Taker",
       deployedLink: "https://note-taker-owenf.herokuapp.com/",
       projectImage: Note,
+    },
+    {
+      title: "Weather",
+      repoLink: "https://github.com/owenforeman1/Weather-Dashboard",
+      deployedLink: "https://owenforeman1.github.io/Weather-Dashboard/",
+      projectImage: Weather,
     },
   ];
   
